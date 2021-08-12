@@ -2,7 +2,6 @@
 
 [Milestone-1.pdf](./Milestone-1.pdf)
 
-Note: Section 7 (Updates) lists the updates since the original release of the Milestone on February 23rd.
 
 # Dependencies
 
@@ -66,18 +65,7 @@ Do include your own ratings in your final submission so we can check your answer
 > sbt "runMain recommend.Recommender --data data/ml-100k/u.data --personal data/personal.csv --json recommendations.json"
 ````
 
-## Package for submission
 
-Steps:
-
-    1. Update the ````name````, ````maintainer```` fields of ````build.sbt````, with the correct Milestone number, your ID, and your email.
-    2. Ensure you only used the dependencies listed in ````build.sbt```` in this template, and did not add any other.
-    3. Remove ````project/project````, ````project/target````, and ````target/````.  
-    4. Test that all previous commands for generating statistics, predictions, and recommendations correctly produce a JSON file (after downloading/reinstalling dependencies).
-    5. Remove the ml-100k dataset (````data/ml-100k.zip````, and ````data/ml-100k````), as well as the````project/project````, ````project/target````, and ````target/````. 
-    6. Add your report and any other necessary files listed in the Milestone description (see ````Deliverables````).
-    7. Zip the archive.
-    8. Submit to the TA for grading.
 
 # References
 
@@ -91,8 +79,4 @@ Spark Resilient Distributed Dataset (RDD): https://spark.apache.org/docs/3.0.1/a
 
 JSON Serialization: https://github.com/json4s/json4s#serialization
 
-# Credits
 
-Erick Lavoie (Design, Implementation, Tests)
-
-Athanasios Xygkis (Requirements, Tests)
